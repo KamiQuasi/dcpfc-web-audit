@@ -1,0 +1,44 @@
+{
+    sections: [
+        {
+            title: "Target Audience",
+            details: ["Parents", "County Residents", "Volunteers", "Donors", "Service Providers", "Home School Participants"],
+            sort: 0
+        },
+        {
+            title: "Implementation Timeline",
+            details: "Immediate",
+            sort: 0
+        },
+        {
+            title: "Current Infrastructure",
+            details: {name: "BlueTone Media", url: "http://www.bluetonemedia.com/"},
+            sort: 0
+        },
+        {
+            title: "Security Considerations",
+            details: ["Photo release", "Payment Acceptance", "Registration"],
+            sort: 0
+        },
+        {
+            title: "Social Media Integration or Online Communication",
+            details: ["Facebook (rotating link doesn't work)", "County Residents", "Volunteers", "Donors", "Service Providers", "Home School Participants"],
+            sort: 0
+        },
+        {
+            title: "Purpose/Strategy",
+            details: "Be a catalyst for the development, expansion, and promotion for all children ages 0-12 and their families",
+            sort: 0
+        },
+        {
+            title: "Implementation Timeline",
+            details: "Immediate",
+            sort: 0
+        },
+        {
+            title: "Implementation Timeline",
+            details: "Immediate",
+            sort: 0
+        },
+    ]
+}
