@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" href="css/audit.css" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Duplin County Partnership for Children Web Audit - Glossary</title>
+  </head>
+
+  <body ng-app="audit">
+    <div id="container">
+      <div class="inner">
+        <header>
+          <h1>Duplin County Partnership for Children Web Audit</h1>
+          <h2>Glossary</h2>
+        </header>
+
+        <hr>
+
+        <section id="main_content">
+           <a href="index.html">Home</a> |
+           Glossary | 
+           <a href="baseline.html">Baseline</a> |
+           <a href="recommendations.html">Recommendations</a>
+           
+            <div ng-controller="glossary">
+                <table>
+                    <tr><th class="tblhead" colspan="2"><label>Search: <input ng-model="q"></label></td></tr>
+                    <tr>
+                        <th>Word</th>
+                        <th>Definition</th>
+                    </tr>
+                    <tr ng-repeat="def in glossary.definitions | filter:q">
+                        <td ng-bind="def[0]"></td><td ng-bind="def[1]"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <footer>
+          Duplin County Partnership for Children Web Audit is maintained by <a href="https://github.com/KamiQuasi">Luke Dary</a>
+        </footer>
+
+        
+      </div>
+    </div>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-resource.min.js"></script>
+    <script>
+        (function() {
+            angular.module('audit', ['ngResource'])
+                .factory('glossary', ['$resource', function($resource) {
+                    return $resource('data/glossary.json', null, {});
+                }])
+                .controller('glossary', ['$scope', 'glossary', function($scope, glossary) {
+                    $scope.glossary = glossary.get();  
+                }]);
+        }())
+    </script>
+  </body>
+</html>

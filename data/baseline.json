@@ -1,44 +1,43 @@
 {
-    sections: [
+    "sections": [
         {
-            title: "Target Audience",
-            details: ["Parents", "County Residents", "Volunteers", "Donors", "Service Providers", "Home School Participants"],
-            sort: 0
+            "title": "Target Audience",
+            "details": ["Parents", "County Residents", "Volunteers", "Donors", "Service Providers", "Home School Participants"],
+            "sort": 0
         },
         {
-            title: "Implementation Timeline",
-            details: "Immediate",
-            sort: 0
+            "title": "Implementation Timeline",
+            "details": "Immediate",
+            "sort": 0
         },
         {
-            title: "Current Infrastructure",
-            details: {name: "BlueTone Media", url: "http://www.bluetonemedia.com/"},
-            sort: 0
+            "title": "Current Infrastructure",
+            "details": {"name": "BlueTone Media", "url": "http://www.bluetonemedia.com/"},
+            "sort": 0
         },
         {
-            title: "Security Considerations",
-            details: ["Photo release", "Payment Acceptance", "Registration"],
-            sort: 0
+            "title": "Security Considerations",
+            "details": ["Photo release", "Payment Acceptance", "Registration"],
+            "sort": 0
         },
         {
-            title: "Social Media Integration or Online Communication",
-            details: ["Facebook (rotating link doesn't work)", "County Residents", "Volunteers", "Donors", "Service Providers", "Home School Participants"],
-            sort: 0
+            "title": "Social Media Integration or Online Communication",
+            "details": ["+Facebook (rotating link doesn't work)", "-Twitter", "-LinkedIn", "-Pinterest", "-Google+", "-Instagram"],
+            "sort": 0
         },
         {
-            title: "Purpose/Strategy",
-            details: "Be a catalyst for the development, expansion, and promotion for all children ages 0-12 and their families",
-            sort: 0
+            "title": "Purpose/Strategy",
+            "details": "Be a catalyst for the development, expansion, and promotion for all children ages 0-12 and their families",
+            "sort": 0
         },
         {
-            title: "Implementation Timeline",
-            details: "Immediate",
-            sort: 0
-        },
-        {
-            title: "Implementation Timeline",
-            details: "Immediate",
-            sort: 0
-        },
+            "title": "Automated Tests",
+            "details": [
+                {"name": "Web Page Test", "url": "http://www.webpagetest.org/result/141003_7E_D49/", "details": "This site looks at the resources loaded for a web page and details the timeline from the first request until the page has fully loaded. Notes: The page loads a little slower than they want ('C' grade), and there are a few things that could be improved to lower the 2-second visually complete such as reducing the number of files requested, optimizing images, and allowing caching of more assets."},
+                {"name": "Show Slow", "url": "http://www.showslow.com/details/34248728/http://www.dcpfc.org/#webpagetest", "details": "This site further breaks down the Web Page Test results to chart areas of success and improvement. Notes: The largest areas of improvement here would be to reduce the number of requests by combining CSS and JavaScript files and using a CDN to deliver static assets."},
+                {"name": "PageSpeed Insights", "url": "https://developers.google.com/speed/pagespeed/insights/?url=dcpfc.org", "details": "This site provides more recommendations to improve the performance of a web page, and also shows what the page looks like on a mobile and desktop device. Notes: The time for a page to load content is increased when the browser does not have to wait for certain items to load. In this case the results are showing that due to JavaScript requests coming early in the page the browser is waiting for them to load, which means the content will not load until after the scripts have. Font sizes on Mobile are showing up tiny because the site is not using a mobile-optimized viewport and this affects the size of clickable items too. As is the case of the other two tests, this one also reflects that speed improvements could be made by optimizing images, caching files, and minimizing code."}
+            ],
+            "sort": 0
+        }
     ]
 }

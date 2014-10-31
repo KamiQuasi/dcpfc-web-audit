@@ -1,0 +1,279 @@
+{
+    "site": [
+        {
+            "title": "Findability",
+            "details": [
+                {"area":"Positives", "note":"Links are named appropriately and have large, animated, clickable areas. Contrast and word-choices help things stand out quickly. Some target audiences have distinct sections that will draw them in. Keyword searches from Google direct to the appropriate page(s). Relatively flat page hierarchy reduces clicks to get to content. Global navigation provides consistent link locations."},
+                {"area":"Improvements", "note":"Some target audiences are not called out as prominently. Lack of site search will result in people giving up if they don't find content they are looking for within the first few clicks. Active page/link is not highlighted, which may cause repeat navigation. Ambiguous terms for the uninformed may cause confusion (e.g. - Advocate/Volunteer, Calendar/Events)."}
+            ],
+            "sort": 0
+        },
+        {
+            "title": "Visual consistency",
+            "details": [
+                {"area":"Positives", "note":"Global header, navigation, and footer. Colors are used fairly well across the site."},
+                {"area":"Improvements", "note":"Text line-spacing is inconsistent between pages. Form layouts differ dramatically between pages. Font colors and family differences create visual noise. Page image alignment or spacing varies on some pages. Left navigation font-size varies on services page. Link colors are inconsistent across pages."}
+            ],
+            "sort": 0
+        },
+        {
+            "title": "Navigation",
+            "details": [
+                {"area":"Positives", "note":"Word choices are relatively clear. Large, clickable areas. "},
+                {"area":"Improvements", "note":"Show active navigation item. Reduce ambiguity of some areas. Set priority for accommodating target audience needs. Quick Links are usually reserved for the landing page and reduced to a handful of items."}
+            ],
+            "sort": 0
+        },
+        {
+            "title": "Content",
+            "details": [
+                {"area":"Positives", "note":"Abundance of content across the site. Appears to cover all target audiences with pertinent information. Appropriate external links to related sites and content."},
+                {"area":"Improvements", "note":"Prioritize for each audience the content they most value. Reduce the number of clicks for someone to get to the content they want."}
+            ],
+            "sort": 0
+        },
+        {
+            "title": "Priority",
+            "details": [
+                {"area":"Positives", "note":"Some target audiences and content have been given appropriate priority."},
+                {"area":"Improvements", "note":"Reduce priority of content that does not add to the fulfillment of your vision, mission, and strategy. Reduce usable space taken up by lower priority items. "}
+            ],
+            "sort": 0
+        },
+        {
+            "title": "Multi-language Support",
+            "details": [
+                {"area":"Positives", "note":"Providing some way to translate the page is a good thing."},
+                {"area":"Improvements", "note":"Using Google Translate interrupts and changes the user experience."}
+            ],
+            "sort": 0
+        }
+    ],
+    "pages": [
+        {
+            "title": "Home",
+            "img":"images/screenshots/01home.png",
+            "link":"http://www.dcpfc.org/",
+            "details": [
+                {"area":"Content", "note":""},
+                {"area":"Structure", "note":""},
+                {"area":"Design", "note":""},
+                {"area":"Usability", "note":""},
+                {"area":"Priority", "note":""}
+            ],
+            "sort": 0
+        },
+        {
+            "title": "About",
+            "img":"images/screenshots/02about.png",
+            "link":"http://www.dcpfc.org/about",
+            "details": [
+                {"area":"Content", "note":""},
+                {"area":"Structure", "note":""},
+                {"area":"Design", "note":""},
+                {"area":"Usability", "note":""},
+                {"area":"Priority", "note":""}
+            ],
+            "sort": 1
+        },
+        {
+            "title": "Calendar",
+            "img":"images/screenshots/03calendar.png",
+            "link":"http://www.dcpfc.org/dcpfc_calendar",
+            "details": [
+                {"area":"Content", "note":""},
+                {"area":"Structure", "note":""},
+                {"area":"Design", "note":""},
+                {"area":"Usability", "note":""},
+                {"area":"Priority", "note":""}
+            ],
+            "sort": 2
+        },
+        {
+            "title": "Services",
+            "img":"images/screenshots/04services1.png",
+            "link":"http://www.dcpfc.org/services",
+            "details": [
+                {"area":"Content", "note":""},
+                {"area":"Structure", "note":""},
+                {"area":"Design", "note":""},
+                {"area":"Usability", "note":""},
+                {"area":"Priority", "note":""}
+            ],
+            "sort": 3
+        },
+        {
+            "title": "Parents",
+            "img":"images/screenshots/05parents.png",
+            "link":"http://www.dcpfc.org/parents-children",
+            "details": [
+                {"area":"Content", "note":""},
+                {"area":"Structure", "note":""},
+                {"area":"Design", "note":""},
+                {"area":"Usability", "note":""},
+                {"area":"Priority", "note":""}
+            ],
+            "sort": 4
+        },
+        {
+            "title": "News",
+            "img":"images/screenshots/06news.png",
+            "link":"http://www.dcpfc.org/news",
+            "details": [
+                {"area":"Content", "note":"Long blocks of text that appear to be copied from other sources. Headers appear to not be relevant to the content. "},
+                {"area":"Structure", "note":"Normalizing the layout of each article will help. Don't allow copy-paste to ruin a standard layout."},
+                {"area":"Design", "note":"Small font sizes and line spacing make things difficult to read. Headers should be standardized to avoid inconsistent visual priority."},
+                {"area":"Usability", "note":""},
+                {"area":"Priority", "note":""}
+            ],
+            "sort": 5
+        },
+        {
+            "title": "Advocates",
+            "img":"images/screenshots/07advocates.png",
+            "link":"http://www.dcpfc.org/advocate",
+            "details": [
+                {"area":"Content", "note":"Long text blocks should be broken up. More technical writing styles would bring out the information more. Try using bulleted points, or quotes to call out important information."},
+                {"area":"Structure", "note":"Long block of text can be improved by restricting line length or indentation."},
+                {"area":"Design", "note":"Line spacing and indentation are needed. Visually cluttered without visual anchors to keep interest. Call out specific details in a block quote or graphic to summarize the information."},
+                {"area":"Usability", "note":"Without knowing whether an advocate is a specifically titled role or just generally someone who advocates for the organization it is hard to begin reading. Try to pull the target audience in with a hook of some kind either graphically or textually. Could this be combined with a volunteer?"},
+                {"area":"Priority", "note":"Not entirely sure of the priority of this. Seems to be very closely tied with volunteering even if not directly with the organization."}
+            ],
+            "sort": 6
+        },
+        {
+            "title": "Staff",
+            "img":"images/screenshots/08staff.png",
+            "link":"http://www.dcpfc.org/staff",
+            "details": [
+                {"area":"Content", "note":"Great list of the people involved."},
+                {"area":"Structure", "note":"Excellent two-column layout makes the page flow nicely. Could also add additional biographical information to humanize the staff and/or board. Also gives a venue for people to promote the reason they are involved. Consider adding phone tags to allow mobile calls when browsing from a mobile device or a browser that supports calling."},
+                {"area":"Design", "note":"Two-column layout helps the page flow nicely. Make sure images are not being skewed (Karen's image proportions are off, which stretches her photo in an unflattering way). If hierarchy of board is intended, do so across the columns not down one."},
+                {"area":"Usability", "note":"Easy to understand page. Add phone links for call-enabled browsers."},
+                {"area":"Priority", "note":"This is likely not a high-priority page, and could be sent to the footer, or a less prominent link than the global navigation."}
+            ],
+            "sort": 7
+        },
+        {
+            "title": "Contact",
+            "img":"images/screenshots/09contact.png",
+            "link":"http://www.dcpfc.org/contact",
+            "details": [
+                {"area":"Content", "note":"Simple form text with contact details. May want to differentiate office location from phone and email to provide prioritized communication modes."},
+                {"area":"Structure", "note":"Page is sectioned out well. Receiving errors on map area, but may be due to infrastructure mangling code."},
+                {"area":"Design", "note":"Contrast of form color may be a bit jarring. Lower the contrast, but use the same color family or use simple border around the area. Address and phone numbers are inconsistent sizes. If visual priority is trying to be achieved use sections calling out 'Office location' and 'Phone/Fax/Email'. Pair the map more closely with the office location text."},
+                {"area":"Usability", "note":"Form appears to not have validation. Confirmation page though, which is good. Could add some more content to the confirmation page to direct people to specific content afterwards."},
+                {"area":"Priority", "note":"Seems like a high-priority item that might be better suited to top-level navigation or a global header link."}
+            ],
+            "sort": 8
+        },
+        {
+            "title": "Donate",
+            "img":"images/screenshots/10donate.png",
+            "link":"http://www.dcpfc.org/donate",
+            "details": [
+                {"area":"Content", "note":"Straight-forward form, but could use more detail about what gifts are used for, and what specific dollar figures provide to the organization. Not initially clear from the link that this would be a pledge to donate and not an actual donation form. <a href='http://bradfrostweb.com/blog/post/designing-an-effective-donate-form/'>Designing an effective donate form</a>"},
+                {"area":"Structure", "note":"Form alignment could be improved to reduce inconsistent field and label positioning."},
+                {"area":"Design", "note":"Inconsistent top graphic positioning. Form fields and labels should be lined up to improve form flow. Different font weights or sizes would help differentiate important text over informational text."},
+                {"area":"Usability", "note":"Form lacks accessible labels and fields making it difficult to navigate quickly. Doesn't appear to have required fields called out."},
+                {"area":"Priority", "note":"This is a high-priority page, bump it up to top-level global navigation or even a separate button called out in the header."}
+            ],
+            "sort": 9
+        },
+        {
+            "title": "Volunteer",
+            "img":"images/screenshots/11volunteer.png",
+            "link":"http://www.dcpfc.org/volunteer",
+            "details": [
+                {"area":"Content", "note":"There are a lot of questions that require a bit of reading to understand. Simplify or consolidate wherever possible. Think about splitting out content specific to certain types of volunteers based on initial questions."},
+                {"area":"Structure", "note":"Layout leaves a lot of extra whitespace and is causing the form to look misaligned. Consider using wells or fieldset to callout sections of the form."},
+                {"area":"Design", "note":"Some fields should flow horizontally to eliminate excess whitespace. Headings and sections should be aligned consistently, and called out using visual cues like borders or dividers."},
+                {"area":"Usability", "note":"Form is not using appropriate label or click interface to ease entry. Alignment makes understanding form values difficult. Does not appear to have validation or a success page. Unable to submit form."},
+                {"area":"Priority", "note":"This seems like a high-priority piece of content worthy of the top navigation and a spot for content on the home page."}
+            ],
+            "sort": 10
+        },
+        {
+            "title": "Events",
+            "img":"images/screenshots/12events.png",
+            "link":"http://www.dcpfc.org/events",
+            "details": [
+                 {"area":"Content", "note":"Consistent format for each entry will make readability much better. Try to convey as much detail in a glance as possible, so increase visibility of the date/time, location, and details in that order."},
+                {"area":"Structure", "note":"Add consistent layout template for any event to fit into."},
+                {"area":"Design", "note":"Inconsistent colors, fonts, alignment, and spacing. Provide a specific format, and stick with it for all events listed. Add a touch of interest with graphical elements if available."},
+                {"area":"Usability", "note":"Since some event headings are larger or different color they are more noticeable. Reduce line size to bring more focus to the events. Add month sections to separate current and upcoming events."},
+                {"area":"Priority", "note":"If the goal is to promote these events they should have an increased priority and maybe have a dedicated section on the home page. If there is not a commitment to the events the information may be better communicated via email or social media on a periodic basis."}
+            ],
+            "sort": 11
+        },
+        {
+            "title": "Links",
+            "img":"images/screenshots/13links.png",
+            "link":"http://www.dcpfc.org/links",
+            "details": [
+                {"area":"Content", "note":"Lots of valuable links. Rename to Links from Quick Links in navigation since there are so many. "},
+                {"area":"Structure", "note":"Could probably benefit from a multi-column layout or wells."},
+                {"area":"Design", "note":"Link color is inconsistent with other pages. Vertical space between links could be increased. Add wells to delineate different topics. Add graphic or color to further call out differences."},
+                {"area":"Usability", "note":"The abundance of links makes it difficult to immediately find the one you want. Presenting them alphabetically is a start, but further classifying the longer lists will improve overall findability."},
+                {"area":"Priority", "note":"Unless these are resources essential to target audiences the global navigation could be lowered to the footer and a page to the links placed on the home page."}
+            ],
+            "sort": 12
+        },
+        {
+            "title": "Research",
+            "img":"images/screenshots/14research.png",
+            "link":"http://www.dcpfc.org/research",
+            "details": [
+                {"area":"Content", "note":"Information is valuable for a specific audience."},
+                {"area":"Structure", "note":"Consistent style should be defined for presenting large blocks of text."},
+                {"area":"Design", "note":"Technical writing style would include more use of space and indentation. An additional image to the right in the middle of the content would provide an additional visual anchor for the text. Maybe a blockquote to call out an important quote."},
+                {"area":"Usability", "note":"Large blocks of text can turn people away without something to draw them to read on."},
+                {"area":"Priority", "note":"This information seems to be valuable for a specific audience, but probably not worthy of a navigation link for everyone. Consider having it be a content link somewhere a target audience would be able to click on."}
+            ],
+            "sort": 13
+        },
+        {
+            "title": "Spanish Home",
+            "img":"images/screenshots/15es.png",
+            "link":"http://www.google.com/translate?hl=en&u=http%3A%2F%2Fwww.dcpfc.org%2F&ie=UTF8&langpair=en%7Ces",
+            "details": [
+                {"area":"Content", "note":"Some content is not translated because it is captured in images. "},
+                {"area":"Structure", "note":"Page layout remains the same."},
+                {"area":"Design", "note":"Navigation alignment is thrown off. Graphical elements with text are not translated."},
+                {"area":"Usability", "note":"The navigation getting thrown off reduces the usability, but does not prevent navigation."},
+                {"area":"Priority", "note":"Spanish-speaking visitors may have different priorities than English-speaking visitors."}
+            ],
+            "sort": 14
+        }
+    ],
+    "tiers": [
+        {
+            "title": "",
+            "details": {
+                "low": "",
+                "med": "",
+                "high": ""
+            },
+            "sort": 0
+        },
+        {
+            "title": "",
+            "details": {
+                "low": "",
+                "med": "",
+                "high": ""
+            },
+            "sort": 0
+        },
+        {
+            "title": "",
+            "details": {
+                "low": "",
+                "med": "",
+                "high": ""
+            },
+            "sort": 0
+        }
+        
+    ]
+}

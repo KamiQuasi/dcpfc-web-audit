@@ -1,15 +1,18 @@
-[
-    ["user experience", ""],
-    ["website", ""],
-    ["hosting", ""],
-    ["design", ""],
-    ["development", ""],
-    ["HTML", ""],
-    ["JavaScript", ""],
-    ["stylesheet", ""],
-    ["website", ""],
-    ["website", ""],
-    ["website", ""],
-    ["website", ""],
-    ["website", ""],
-]
+{
+    "definitions": [
+        ["user experience", "Shortened to 'UX' a lot of times. It involves the points where someone interacts with your company. Specifically focused on the web, this would be your website, communication avenues, social media, and things of that nature. "],
+        ["website", "Also shortened to 'site'. This is simply the whole of the content contained in one or more web pages, which includes text, images, links, and other assets."],
+        ["hosting", "In order for a website to be accessible to others it requires some type of server host to present the website to those that request it. Typically this will involve a separate company. Considerations when looking at providers are storage, bandwidth, and features (one-click installers, programming languages allowed, email, databases, etc.)"],
+        ["design", "The visual aesthetic of your site including images, layout, colors, fonts, and empty space."],
+        ["development", "The coded portion of your site including HTML, CSS, JavaScript, and any other technologies involved. Typically broken into front-end and back-end development. Front-end is concerned with the part of the site people interact with; back-end is concerned with the part of the site that the front-end interacts with such as data services and authentication."],
+        ["HTML", "HyperText Markup Language - the structural foundation of the web. A series of tags, designated by words or letters in-between < and > (e.g. - <html>, <head>, <body>, <a>, <img>). References to HTML5 are simply calling out more recent updates to the language that are not necessarily compatible with very old browser versions."],
+        ["JavaScript", "The programming language for the web. Defines behaviors and interactions for things like mouse clicks, animations, and form submissions. "],
+        ["stylesheet", "Also called 'CSS'. Cascading Style Sheets are what define some of the visual elements of a web page. Colors, fonts, borders, padding, and margin are all basic attributes affected by CSS. Modern CSS also includes things like animations, layout, and opacity. Without stylesheets a web page doesn't bring much visually beyond links and images."],
+        ["bandwidth", "The quantity of bytes (a unit of measuring digital files) required to send things over the internet. Usually measured in kilobytes (KB; 1,024 bytes), megabytes (MB; 1,024 KB), and gigabytes (GB; 1,024 MB)."],
+        ["compression", "A way of minimizing the bandwidth required for web assets. Requires decompression in the browser to be effective, and most modern browsers have this built in."],
+        ["SEO", "Search Engine Optimization - the process of improving page ranking in search results based on keywords, content, and other factors."],
+        ["analytics", "Tracking the traffic to a website to determine effectiveness of the contents. "],
+        ["browser", "The way most people consume websites on the internet. Takes the code and assets for a web page and interprets it to display something to the user."],
+        ["CDN", "Content Delivery/Distribution Network - provides file hosting that optimizes the location that files are being served from to be as close or as fast as possible."]
+    ]
+}

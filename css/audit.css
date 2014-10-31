@@ -1,0 +1,9 @@
+table { border: 1px solid Black; width: 85%; margin: 1em auto; border-collapse: collapse; }
+tr { vertical-align: top; }
+th { background: black; color: white; }
+th.tblhead { background: white; color: black; }
+th.tblhead h3 { margin: .25em; }
+th.tblhead label { display: block; margin: .5em; }
+td { border: 1px solid #333; padding: .5em 1em; }
+td:first-child { font-weight: bold; }
+td img { width: 250px; }
