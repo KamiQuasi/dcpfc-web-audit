@@ -4,35 +4,110 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="stylesheet" href="css/audit.css" />
+    <link rel="stylesheet" media="print" href="css/print.css" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <title>Duplin County Partnership for Children Web Audit</title>
+    <style media="print">
+        
+    </style>
   </head>
 
   <body ng-app="audit">
-    <div id="container">
-      <div class="inner">
+    <div id="container" ng-controller="auditCtrl">
         <header>
           <h1>Duplin County Partnership for Children Web Audit</h1>
-          <h2>Baseline, Glossary, and Recommendations</h2>
         </header>
 
         <hr>
 
-        <section id="main_content">
-           Home |
-           <a href="glossary.html">Glossary</a> | 
-           <a href="baseline.html">Baseline</a> |
-           <a href="recommendations.html">Recommendations</a>
+        <section id="nav">
+           <a ng-click="links.setLink('home')" ng-class="{active: !links.home}" href="#">Home</a> |
+           <a ng-click="links.setLink('base')" ng-class="{active: !links.base}" href="#">Baseline</a> |
+           <a ng-click="links.setLink('rec')" ng-class="{active: !links.rec}" href="#">Recommendations</a> |
+           <a ng-click="links.setLink('gloss')" ng-class="{active: !links.gloss}" href="#">Glossary</a>
         </section>
-
-        <footer>
-          Duplin County Partnership for Children Web Audit is maintained by <a href="https://github.com/KamiQuasi">Luke Dary</a>
-        </footer>
-
         
-      </div>
+        <section ng-class="{hide: links.home}">
+           <h2>Audit Summary</h2>
+            <p>The Duplin County website is currently in a good position with a good quantity of content, a fairly consistent design, and useful information for a variety of target audiences.</p>
+            <p>There are a number of small things that could be done to improve the overall usability and success of the site, but larger changes would also be a valuable investment to accomplish the strategic mission of the site.</p>
+            <p>Most important for the success of the site would be to hone in on the target audiences and their specific content needs. This will allow the organization to prioritize the content and links in a way that drives more traffic to the site and encourages people to explore.</p>
+            <p>Additionally, creating a clear style guide that defines elements of the site will allow for additional people to contribute to the site's content.</p>
+            <p>There are a few process changes that have been brought up in discussions such as the publishing of calendar events and news articles that will have to be determined by the staff. Keep in mind that consistency is a very important part of both of those types of content.</p>
+        </section>
+        <section ng-class="{hide: links.base}" class="">
+           <h2>Baseline</h2>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Details</th>
+                </tr>
+                <tr ng-repeat="item in baseline.sections | orderBy: 'sort'">
+                    <td ng-bind="item.title"></td><td audit-baseline-details="item.details"></td>
+                </tr>
+            </table>
+        </section>
+        <section ng-class="{hide: links.rec}">
+           <h2>Recommendations</h2>
+            <table>
+               <tr><th class="tblhead" colspan="2"><h3>Site-wide Feedback</h3></th></tr>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Details</th>
+                </tr>
+                <tr ng-repeat="item in recommendations.site | orderBy: 'sort'">
+                    <td ng-bind="item.title"></td>
+                    <td audit-recommend-details="item.details"></td>
+                </tr>
+            </table>
+
+            <div>
+               <h3>Page-specific Feedback</h3>
+                <div class="recommendation" ng-repeat="item in recommendations.pages | orderBy: 'sort'">
+                  <h4 ng-bind="item.title"></h4>
+                   <a ng-href="{{item.link}}" target="_blank" ><img ng-src="{{item.img}}" /></a>
+                        <div audit-recommend-details="item.details"></div>      
+                    
+                </tr>
+                </div>
+
+            <table>
+               <tr><th class="tblhead" colspan="4"><h3>Tiered Future Recommendations</h3></th></tr>
+                <tr>
+                    <th></th>
+                    <th>Low</th>
+                    <th>Medium</th>
+                    <th>High</th>
+                </tr>
+                <tr ng-repeat="item in recommendations.tiers | orderBy: 'sort'">
+                    <td ng-bind="item.title"></td>
+                    <td ng-bind="item.details.low"></td>
+                    <td ng-bind="item.details.med"></td>
+                    <td ng-bind="item.details.high"></td>
+                </tr>
+            </table>
+        </section>
+        <section ng-class="{hide: links.gloss}" class="glossary">
+           <h2>Glossary</h2>
+            <table>
+                <tr><th class="tblhead" colspan="2"><label>Search: <input ng-model="q"></label></td></tr>
+                <tr>
+                    <th>Word</th>
+                    <th>Definition</th>
+                </tr>
+                <tr ng-repeat="def in glossary.definitions | filter:q">
+                    <td ng-bind="def[0]"></td><td ng-bind="def[1]"></td>
+                </tr>
+            </table>
+        </section>
+        <footer>
+          Duplin County Partnership for Children Web Audit was created by <a href="https://github.com/KamiQuasi">Luke Dary</a>
+        </footer>
     </div>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-resource.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

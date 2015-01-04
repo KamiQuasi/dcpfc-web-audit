@@ -43,7 +43,7 @@
         {
             "title": "Multi-language Support",
             "details": [
-                {"area":"Positives", "note":"Providing some way to translate the page is a good thing."},
+                {"area":"Positives", "note":"Providing some way to translate the page is always a good thing."},
                 {"area":"Improvements", "note":"Using Google Translate interrupts and changes the user experience."}
             ],
             "sort": 0
@@ -55,11 +55,11 @@
             "img":"images/screenshots/01home.png",
             "link":"http://www.dcpfc.org/",
             "details": [
-                {"area":"Content", "note":""},
-                {"area":"Structure", "note":""},
-                {"area":"Design", "note":""},
-                {"area":"Usability", "note":""},
-                {"area":"Priority", "note":""}
+                {"area":"Content", "note":"The Vision and Mission statements may not be appropriate as the sole content for the site's landing page. They could be featured less prominently to increase space for more audience-specific content. The addition of content directing people to the content they might be searching for will go a long way. Additionally, the home page is a great place to put recent news, upcoming events and other notifications for a quick glance overview of what is happening."},
+                {"area":"Structure", "note":"Adjust the layout according to changes for design and user experience. "},
+                {"area":"Design", "note":"The large image of children at the top of the content is pleasant, but creates a large gap between the top and the rest of the content. Consider utilizing the image as a background for a header or other content for the page to better utilize the space."},
+                {"area":"Usability", "note":"The rotating banner of links can prevent people from clicking because they may never stay on the page long enough to see links further in the cycle. Consider pulling the links out and placing them in a link area on the page."},
+                {"area":"Priority", "note":"The predominant items on the page are images, which reduces the importance of the links and the little content on the page. Consider bringing target audiences into the site with something that is important to them from the content rather than imagery. Increase the amount of information presented, but differentiate items for different audiences."}
             ],
             "sort": 0
         },
@@ -68,11 +68,11 @@
             "img":"images/screenshots/02about.png",
             "link":"http://www.dcpfc.org/about",
             "details": [
-                {"area":"Content", "note":""},
-                {"area":"Structure", "note":""},
-                {"area":"Design", "note":""},
-                {"area":"Usability", "note":""},
-                {"area":"Priority", "note":""}
+                {"area":"Content", "note":"Rich content here about the organization. Spacing out some paragraphs would help with readability. Consider having two sections with these topics: what we do, what we've done. Write about the present state of the organization and then go into a history."},
+                {"area":"Structure", "note":"Adding some paragraph breaks between ideas will help improve readability."},
+                {"area":"Design", "note":"An image or blockquote to create visual interest. Consider having multiple headings to differentiate factual information about the organization versus historical information abotu what the organization has done. Use text sub headers and whitespace to call out different thoughts."},
+                {"area":"Usability", "note":"The text is a good size, but a little tight. Increase line spacing slightly and font-size to improve readability. Links to specific news articles announcing historical accomplishments or calendar events would also create interest to dig deeper into the site."},
+                {"area":"Priority", "note":"Give priority to the factual information about the organization and then reflect on past accomplishments and history. Consider what the target audiences will want to get from this page and put that content first."}
             ],
             "sort": 1
         },
@@ -81,11 +81,11 @@
             "img":"images/screenshots/03calendar.png",
             "link":"http://www.dcpfc.org/dcpfc_calendar",
             "details": [
-                {"area":"Content", "note":""},
-                {"area":"Structure", "note":""},
-                {"area":"Design", "note":""},
-                {"area":"Usability", "note":""},
-                {"area":"Priority", "note":""}
+                {"area":"Content", "note":"The Google calendar is an effective tool to communicate scheduled events. Consider using the agenda view in a smaller space to list upcoming events for the week. Utilizing more of a list view may also help people browse the calendar more effectively."},
+                {"area":"Structure", "note":"Changes to the layout may improve spacing. Not much control can be had without doing customization of the Google calendar."},
+                {"area":"Design", "note":"Colors can be used to set the calendar more inline with the rest of the site. Utilizing a different style (like agenda) will allow for less space to be filled. Alternatively, the Google calendar API could be used to bring in events and link to the details. This could be consolidated into the events for streamlining where people go to find events. Also, utilizing different calendars and colors for different audiences may also be beneficial."},
+                {"area":"Usability", "note":"Embedding the monthly Google calendar may not be the best method for presenting events since it reduces the ability to see details at a glance. There could be some improvements, but overall this is an okay way to present the calendar. Adding a legend for additional colors to separate the audiences would be helpful too."},
+                {"area":"Priority", "note":"There is no priority given to calendar entries at the moment. Think about which types of events could be bubbled to the top for particular target audiences. Coloration and a legend will help draw important things to the top."}
             ],
             "sort": 2
         },
@@ -94,11 +94,11 @@
             "img":"images/screenshots/04services1.png",
             "link":"http://www.dcpfc.org/services",
             "details": [
-                {"area":"Content", "note":""},
-                {"area":"Structure", "note":""},
-                {"area":"Design", "note":""},
-                {"area":"Usability", "note":""},
-                {"area":"Priority", "note":""}
+                {"area":"Content", "note":"The repeated use of the word 'activity' doesn't seem to be understandable. Make sure to give context to people reading in words that they commonly use. The links at the top are good, but without context they may be foreign to the reader."},
+                {"area":"Structure", "note":"Horizontal padding for the content could be increased to produce space between areas. Consider using an expand/collapse method for each of the services to use the space more efficiently."},
+                {"area":"Design", "note":"Visual interest to continue down the page could be encouraged by adding some images or block quotes. Accordion-style expand/collapse for each item on the page would allow the space to be dynamic based on user preferences."},
+                {"area":"Usability", "note":"The links at the top help navigate the page, and the links back to the top of the page help with the overall navigation. By adding the ability to hide and show content it promotes the user to click and interact with the page."},
+                {"area":"Priority", "note":"All of the services are important, so it would be beneficial to present as much of the content where the user does not need to scroll or to engage them to scroll by using visual or interactive cues. Depending on the value to different target audiences the weight of the content could be adjusted."}
             ],
             "sort": 3
         },
@@ -107,11 +107,11 @@
             "img":"images/screenshots/05parents.png",
             "link":"http://www.dcpfc.org/parents-children",
             "details": [
-                {"area":"Content", "note":""},
-                {"area":"Structure", "note":""},
-                {"area":"Design", "note":""},
-                {"area":"Usability", "note":""},
-                {"area":"Priority", "note":""}
+                {"area":"Content", "note":"The content appears to be valuable information, but doesn't necessarily correspond to the 'Parents/Children' name of the link. The lending library and choosing quality child care could be their own pages linked from this page. The printable activities are not as obvious on the page since they are in a somewhat unique location."},
+                {"area":"Structure", "note":"Consider splitting the page content into two or three columns."},
+                {"area":"Design", "note":"Split large content blocks with a thin line to create a visual break. If a multi-column layout can contain the information use that to bring additional content up the page. Add an image or block quote to add some additional visual interest."},
+                {"area":"Usability", "note":"The page requires scrolling to view some of the content of the page. If the content could be linked and only short headlines presented that would help take back some of the space. Bring the printable activites up on the page since the space under the office image is not as obvious."},
+                {"area":"Priority", "note":"Give equal priority to the content of this page. The information is valuable, but the target audience may not see the content lower on the page."}
             ],
             "sort": 4
         },
@@ -120,11 +120,11 @@
             "img":"images/screenshots/06news.png",
             "link":"http://www.dcpfc.org/news",
             "details": [
-                {"area":"Content", "note":"Long blocks of text that appear to be copied from other sources. Headers appear to not be relevant to the content. "},
+                {"area":"Content", "note":"Long blocks of text that appear to be copied from other sources. Headers appear to not be relevant to the content. Consider integrating updates from social media into this page. Newsletters could be produced as web content, but you would likely lose the ability to format it in the same way. Consider using this area to call out calendar events as they approach too."},
                 {"area":"Structure", "note":"Normalizing the layout of each article will help. Don't allow copy-paste to ruin a standard layout."},
                 {"area":"Design", "note":"Small font sizes and line spacing make things difficult to read. Headers should be standardized to avoid inconsistent visual priority."},
-                {"area":"Usability", "note":""},
-                {"area":"Priority", "note":""}
+                {"area":"Usability", "note":"This page should not contain full-text of articles as much as it should be a starting point for additional content. Give a title, byline, and date. Link to full-text articles can be internal or external. "},
+                {"area":"Priority", "note":"Monthly newsletters or periodical content from the organization should be prioritized over other content."}
             ],
             "sort": 5
         },
@@ -248,29 +248,47 @@
     ],
     "tiers": [
         {
-            "title": "",
+            "title": "Hosting/Services",
             "details": {
-                "low": "",
-                "med": "",
-                "high": ""
+                "low": "Continue with the way things are, and utilize BlueTone at roughtly the same level that is currently done.",
+                "med": "Utilize the BlueTone resources more fully to help with some of the changes and recommendations. Start to make strategic decisions based on traffic analytics.",
+                "high": "Investigate alternatives or additional partners with specific areas of expertise to help with the design, usability, or development of the site. Utilize analytics to make strategic changes to the site flow or layout."
             },
             "sort": 0
         },
         {
-            "title": "",
+            "title": "Design",
             "details": {
-                "low": "",
-                "med": "",
-                "high": ""
+                "low": "Make minor changes based on the recommendations to bring more consistency and reduce visual clutter.",
+                "med": "Add/Remove/Update images where appropriate. Reclaim space taken by large images. Adjust visual style and create a minor style guide to set standards. Focus on making priority and strategic decisions for the design.",
+                "high": "Site redesign. Create an exhaustive style guide to communicate the visual details of the brand and specific content. Bring specific choices in fonts, white space, and image quality and sizes to the table. Enhance the visual layout of the site to provide target audiences with quick access to the information they are looking for."
             },
             "sort": 0
         },
         {
-            "title": "",
+            "title": "Content",
             "details": {
-                "low": "",
-                "med": "",
-                "high": ""
+                "low": "Reduce large blocks of text. Improve priority of content to focus on achieving strategic purposes for each target audience.",
+                "med": "Bring content under style guide to define structure of common items like calendar entries, news stories, and other frequent updates. Pull large text items into separate pages or expandable areas to 'Read More'.",
+                "high": "Continue with medium recommendations, and enhance the ability of other contributors to provide more frequent updates. Focus on the strategic purpose of the content, and prioritize accordingly."
+            },
+            "sort": 0
+        },
+        {
+            "title": "User Experience",
+            "details": {
+                "low": "Fix form submissions and various link and content priorities to attract more site usage for target audiences. Work on summary information for large text blocks.",
+                "med": "Reduce or allow expansion of large text blocks. Define target audiences and their most important content. Adjust home page display to allow target audiences to quickly access their desired content.",
+                "high": "Bring the user experience into the style guide to provide specific standards for how new content should be presented. Make the priority of specific changes to enhance target audience flow and success in tasks as well as to encourage repeat use and exploration of the site."
+            },
+            "sort": 0
+        },
+        {
+            "title": "Development",
+            "details": {
+                "low": "Optimize images, scripts, and styles to improve page load times. Work on improving the mobile experience through styling.",
+                "med": "Consider implementing some responsive techniques into the current code. This might include looking at places where content could flow differently using media queries or scripting some different behaviors based on the size of the window. Verify success or need of mobile first development using analytics and demographic data.",
+                "high": "Re-engineer the site to be completely responsive to the size of the window. This encompasses restructuring the HTML, adding styles to accommodate for different screens sizes to display the same information, and using tools to minimize or compress the assets."
             },
             "sort": 0
         }

@@ -13,6 +13,7 @@
         ["SEO", "Search Engine Optimization - the process of improving page ranking in search results based on keywords, content, and other factors."],
         ["analytics", "Tracking the traffic to a website to determine effectiveness of the contents. "],
         ["browser", "The way most people consume websites on the internet. Takes the code and assets for a web page and interprets it to display something to the user."],
-        ["CDN", "Content Delivery/Distribution Network - provides file hosting that optimizes the location that files are being served from to be as close or as fast as possible."]
+        ["CDN", "Content Delivery/Distribution Network - provides file hosting that optimizes the location that files are being served from to be as close or as fast as possible."],
+        ["style guide", "Documentation of standards to contribute to the consistent production of a website. Can be a broad definition of goals or key in on specific details. Items that might be found in a style guide include: fonts (family, colors, weights, sizes spacing), text heading hierarchy, color palette, buttons, forms, logos and graphic assets, etc."]
     ]
 }
